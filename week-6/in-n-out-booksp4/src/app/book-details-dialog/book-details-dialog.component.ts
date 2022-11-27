@@ -2,6 +2,7 @@
  * Title: book-details-dialog.component
  * Author: Professor Krasso
  * Date: 20 November 2022
+ * Modified by: Patrick Wolff
  * Description: Book details dialog (dialog box for displaying the details of a book)
  */
 

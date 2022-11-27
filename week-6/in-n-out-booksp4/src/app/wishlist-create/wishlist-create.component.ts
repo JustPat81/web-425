@@ -6,8 +6,7 @@
  * Description: Component to create wishlist items (demonstrates Output properties)
  */
 
-import { outputAst } from '@angular/compiler';
-import { Component, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { IWishlistItem } from '../wishlist-item.interface';
 
 @Component({
