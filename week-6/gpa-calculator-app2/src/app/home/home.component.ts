@@ -40,11 +40,10 @@ export class HomeComponent implements OnInit {
       console.log(entry.grade)
       switch(entry.grade) {
         case 'A':
-          console.log('its an a')
           gpa += 4.0;
           break;
         case 'A-':
-          gpa += 3.7;
+          gpa += 3.70;
           break;
         case 'B+':
           gpa += 3.33;
@@ -58,6 +57,9 @@ export class HomeComponent implements OnInit {
         case 'C+':
           gpa += 2.30;
           break;
+        case 'C':
+          gpa += 2.00
+          break;
         case 'C-':
           gpa += 1.70;
           break;
@@ -69,6 +71,9 @@ export class HomeComponent implements OnInit {
           break;
         case 'D-':
           gpa += 0.70;
+          break;
+        case 'F':
+          gpa += 0.00
           break;
         default:
           gpa += 0.00;
