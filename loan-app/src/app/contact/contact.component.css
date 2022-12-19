@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 30px auto;
+  }
+
+  .container{
+      display:flex;
+  }
+
+  .column-1 {
+    flex-shrink: 0;
+    flex-basis: 50%;
+  }
+
+
